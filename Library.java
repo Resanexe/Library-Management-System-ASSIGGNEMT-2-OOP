@@ -24,7 +24,7 @@ public class Library {
 
     public String getLibraryName() { return libraryName; }
 
-    // ── ITEM MANAGEMENT ──────────────────────────────────────────────────
+    //  ITEM MANAGEMENT 
 
     public void addItem(LibraryItem item, boolean silent) {
         items.add(item);
@@ -80,7 +80,7 @@ public class Library {
         }
     }
 
-    // ── MEMBER MANAGEMENT ────────────────────────────────────────────────
+    //  MEMBER MANAGEMENT 
 
     public void addMember(Member member, boolean silent) {
         members.add(member);
@@ -122,7 +122,7 @@ public class Library {
         return null;
     }
 
-    // ── BORROW & RETURN ──────────────────────────────────────────────────
+    //  BORROW & RETURN 
 
     public void borrowItem(String memberId, String itemId) {
         Member member = findMemberById(memberId);
