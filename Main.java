@@ -158,11 +158,11 @@ public class Main {
         }
     }
 
-    // ── PRELOAD DATA (silent - no console output) ─────────────────────────
+    //  PRELOAD DATA (silent no console output) 
     // TO CUSTOMIZE: edit the names, IDs, emails etc. below freely
 
     static void preloadData(Library library) {
-        // ── 10 BOOKS ──────────────────────────────────────────────────────
+        // ── 10 BOOKS 
         library.addItem(new Book("B001", "Clean Code",                            "Robert C. Martin",    "978-0132350884", 431,  "Programming"), true);
         library.addItem(new Book("B002", "The Great Gatsby",                      "F. Scott Fitzgerald", "978-0743273565", 180,  "Fiction"),     true);
         library.addItem(new Book("B003", "Introduction to Java",                  "Herbert Schildt",     "978-1260440232", 1312, "Education"),   true);
@@ -174,14 +174,14 @@ public class Main {
         library.addItem(new Book("B009", "Sapiens: A Brief History",              "Yuval Noah Harari",   "978-0062316097", 443,  "History"),     true);
         library.addItem(new Book("B010", "The Alchemist",                         "Paulo Coelho",        "978-0062315007", 208,  "Fiction"),     true);
 
-        // ── 5 MAGAZINES ───────────────────────────────────────────────────
+        // ── 5 MAGAZINES 
         library.addItem(new Magazine("M001", "National Geographic",  "National Geographic Society", 215, "March 2025",    "Science"),    true);
         library.addItem(new Magazine("M002", "TIME Magazine",        "TIME USA LLC",                198, "January 2025",  "News"),       true);
         library.addItem(new Magazine("M003", "Forbes",               "Forbes Media LLC",            310, "February 2025", "Business"),   true);
         library.addItem(new Magazine("M004", "Scientific American",  "Springer Nature",             402, "April 2025",    "Science"),    true);
         library.addItem(new Magazine("M005", "Wired",                "Conde Nast",                  287, "March 2025",    "Technology"), true);
 
-        // ── 10 MEMBERS ────────────────────────────────────────────────────
+        // ── 10 MEMBERS 
         library.addMember(new Member("MEM001", "Ahmad Rizal",    "ahmad@email.com",   "012-3456789"), true);
         library.addMember(new Member("MEM002", "Siti Nurhaliza", "siti@email.com",    "011-9876543"), true);
         library.addMember(new Member("MEM003", "Raj Kumar",      "raj@email.com",     "013-1122334"), true);
